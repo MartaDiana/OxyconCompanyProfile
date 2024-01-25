@@ -1,0 +1,240 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200;1,300;1,500&display=swap");
+/* end of font */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif !important;
+}
+*:focus {
+  outline: none;
+}
+.container-section {
+  min-width: 100%;
+}
+.navbar,
+.konten,
+.produk_heading,
+.produk_layanan,
+.aboutus_heading {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+body {
+  overflow-x: hidden;
+}
+
+/* navbar style */
+
+.navbar a {
+  font-size: 20px;
+  font-weight: 800;
+  color: rgb(75, 75, 75);
+}
+.navbar .btn {
+  background-color: #2d7db4;
+  color: white;
+  min-width: 100px;
+}
+.navbar-icon img {
+  width: 180px;
+  height: auto;
+}
+/* end of navbar style */
+
+/* jumbotron style */
+.jumbotron {
+  min-width: 100vw;
+  min-height: 800px;
+  background-image: url("/pic/jumbotron.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+}
+.jumbotron .heading {
+  margin-bottom: 50px;
+}
+.jumbotron h2 {
+  font-weight: 800;
+  font-size: 3em;
+}
+.jumbotron .layanan {
+  margin-bottom: 50px;
+}
+.jumbotron .item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 2px solid rgb(149, 189, 192);
+  padding: 15px 0px 15px 10px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  font-size: 1.3em;
+  font-weight: 600;
+  column-gap: 10px;
+}
+.jumbotron .item img {
+  width: 50px;
+  height: auto;
+}
+.jumbotron .login_2 button {
+  padding: 25px 25px;
+  border-radius: 50px;
+  font-size: 1.3em;
+  background-color: #2d7db4;
+  color: white;
+  border: none;
+}
+/* end of jumbotron */
+
+/* produk style */
+.garis {
+  background-color: rgb(67, 107, 150, 0.2);
+  height: 2px;
+  margin: 10px auto;
+  max-width: 500px;
+  margin-bottom: 100px;
+}
+.produk {
+  background-color: rgb(255, 255, 255);
+}
+.produk_heading {
+  justify-content: center;
+  margin-top: 100px;
+  font-size: 2.5em;
+  color: #436b96;
+  font-weight: 700;
+}
+.produk_layanan {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+.produk_layanan_heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+.produk_layanan img {
+  max-width: 150px;
+  height: auto;
+}
+.produk_layanan_item1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  font-weight: 600;
+}
+.produk_layanan_item1 a {
+  margin-top: -10px;
+  color: #4693e4;
+  text-decoration: none;
+  font-weight: lighter;
+}
+.produk_layanan_item1 .sub_title {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 5px 40px;
+  font-size: 0.9em;
+  font-weight: lighter;
+}
+
+/* end of product style */
+
+/* about us */
+.container-konten {
+  display: flex;
+  justify-content: flex-end;
+}
+.about_us {
+  max-width: 1300px;
+  width: 100%;
+  min-height: 500px;
+  background: #2d7db4;
+  border-radius: 30px 0 0px 30px;
+  overflow: hidden;
+  margin-bottom: 120px;
+}
+
+.aboutus_headertitle {
+  color: #f1f1f1;
+  padding-left: 35px;
+  padding-top: 35px;
+}
+.aboutus_headertitle p {
+  color: rgb(224, 224, 224);
+}
+.aboutus_heading {
+  background-color: #2d7db4;
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+.owl-carousel {
+  margin-top: 50px;
+  display: flex;
+  margin-left: 35px;
+  margin-bottom: 40px;
+}
+
+.con_com {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 30px 20px 30px;
+  border-radius: 10px;
+  background-color: white;
+  min-height: 300px;
+}
+/* end of about us content */
+
+/* footer */
+.footer {
+  background-color: #1f456d;
+  color: #f1f1f1;
+}
+
+.footer h3 {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.footer p {
+  margin-bottom: 0 !important;
+  font-size: 0.8em;
+  font-weight: lighter;
+}
+.footer a {
+  display: block;
+  color: #f1f1f1;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.footer_section {
+  column-gap: 10px;
+  padding: 50px 200px 30px 200px;
+}
+
+.footer .f1 img {
+  width: 200px;
+  margin-bottom: 10px;
+}
+.footer .f3 {
+  margin: 0 auto;
+}
+
+.garis2 {
+  background-color: rgb(174, 174, 174);
+  height: 1px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+/* end of footer */
